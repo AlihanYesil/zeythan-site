@@ -14,9 +14,9 @@ const CONFIG = {
   inviteToken: '5906ae300241470c12f19055e0618f084dfe9bcbba6a31b4',
   inviteGuildId: '832402784522731540',
 
-  cs2ServerIp: '194.105.5.172',
-  cs2ConnectCommand: 'CONNECT 194.105.5.172',
-  cs2SteamUrl: 'steam://connect/194.105.5.172',
+  cs2ServerIp: '31.42.127.74',
+  cs2ConnectCommand: 'CONNECT 31.42.127.74',
+  cs2SteamUrl: 'steam://connect/31.42.127.74',
   // Sunucu aktiviteleri uç noktası. Boş bırakılırsa activity.js demo veriyle çalışır.
   activityApiUrl: 'http://31.42.127.74/api/public/activity',
   activityToken: '5906ae300241470c12f19055e0618f084dfe9bcbba6a31b4',
@@ -206,9 +206,9 @@ const CONFIG = {
   inviteToken: '5906ae300241470c12f19055e0618f084dfe9bcbba6a31b4',
   inviteGuildId: '832402784522731540',
 
-  cs2ServerIp: '194.105.5.172',
-  cs2ConnectCommand: 'CONNECT 194.105.5.172',
-  cs2SteamUrl: 'steam://connect/194.105.5.172',
+  cs2ServerIp: '31.42.127.74',
+  cs2ConnectCommand: 'CONNECT 31.42.127.74',
+  cs2SteamUrl: 'steam://connect/31.42.127.74',
   // Sunucu aktiviteleri uç noktası. Boş bırakılırsa activity.js demo veriyle çalışır.
   activityApiUrl: 'http://31.42.127.74/api/public/activity',
   activityToken: '5906ae300241470c12f19055e0618f084dfe9bcbba6a31b4',
