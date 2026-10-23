@@ -19,3 +19,4 @@ Türler: `feat` `fix` `perf` `refactor` `docs` `chore` `decision` · Durum: `don
 | # | Tarih | Tür | Başlık | Durum | Özet | Detay |
 |---|---|---|---|---|---|---|
 <!-- ROWS:APPEND-BELOW -->
+| [#0001](entries/0001-fix-aktivite-mixed-content.md) | 2026-10-23 | fix | Aktivite isteği mixed content düzeltmesi | done | HTTPS sayfada HTTP API adresi engelleniyordu; fallback + no-store eklendi | [detay](entries/0001-fix-aktivite-mixed-content.md) |
