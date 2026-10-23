@@ -149,7 +149,7 @@
 
     var summaryText = function (data) {
         var gameCount = data.games.length;
-        return data.withActivity + ' kişi şu an oyunda · ' + gameCount + ' oyun';
+        return data.online + ' şu an çevrimiçi · ' + gameCount + ' farklı oyun';
     };
 
     function applyData(data) {
