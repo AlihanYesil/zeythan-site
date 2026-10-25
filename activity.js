@@ -39,9 +39,16 @@
         }
     }
 
+    // HTTPS sayfadan HTTP adrese istek atılırsa tarayıcı mixed content olarak engeller.
+    // Eski/yedek config'lerde adres http:// kalmışsa botun HTTPS ucuna düşeriz.
+    var HTTPS_ACTIVITY_FALLBACK = 'https://zeythann.online/api/public/activity';
+
     function buildApiUrl() {
         var cfg = getConfig();
         var base = (cfg.activityApiUrl || '').trim();
+        if (base && window.location.protocol === 'https:' && /^http:\/\//i.test(base)) {
+            base = String(cfg.activityApiHttps || HTTPS_ACTIVITY_FALLBACK).trim();
+        }
         if (!base) {
             return '';
         }
@@ -142,7 +149,7 @@
 
     var summaryText = function (data) {
         var gameCount = data.games.length;
-        return data.withActivity + ' kişi şu an oyunda · ' + gameCount + ' oyun';
+        return data.online + ' şu an çevrimiçi · ' + gameCount + ' farklı oyun';
     };
 
     function applyData(data) {

@@ -10,3 +10,4 @@
 - Prefers minimal, "no unnecessary text" UI copy: flags explanatory/meta notes about features as unneeded and removes them ("bu yazıya gerek yok"). Confidence: 0.6
 - Prefers ambient/background media to be quiet and unobtrusive — sets audio volume low (e.g. 10%) and explicitly says it shouldn't be too loud ("çok yüksek olmasın"). Confidence: 0.55
 - Dislikes oversized images/cards; asks for them to be scaled down when they render too large ("kartlar çok büyük resimleri biraz küçültebilirsin"). Confidence: 0.55
+- Specifies the exact user-facing wording of stat/count displays and prefers explicit labels per metric ("24 şu an çevrimiçi · 5 farklı oyun") over compact or ambiguous phrasing ("8 kişi oyunda · 7 oyun"). Confidence: 0.5
